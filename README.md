@@ -1,4 +1,4 @@
-# Migrate SQS queues
+# SQS 2 SQS
 
 Move all the messages from one SQS queue to another.
 ```
