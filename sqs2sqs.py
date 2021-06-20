@@ -2,9 +2,9 @@
 """
 Move all the messages from one SQS queue to another.
 
-Usage: migrate_sqs_queues.py --src-queue=<SRC_QUEUE> --dst-queue=<DST_QUEUE>
-       migrate_sqs_queues.py -s <SRC_QUEUE> -d <DST_QUEUE>
-       migrate_sqs_queues.py -h | --help
+Usage: sqs2sqs.py --src-queue=<SRC_QUEUE> --dst-queue=<DST_QUEUE>
+       sqs2sqs.py -s <SRC_QUEUE> -d <DST_QUEUE>
+       sqs2sqs.py -h | --help
 
 """
 import argparse

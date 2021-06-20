@@ -2,8 +2,8 @@
 
 Move all the messages from one SQS queue to another.
 ```
-Usage: migrate_sqs_queues.py -s | --src-url=<SRC_QUEUE_NAME> -d | --dst-url=<DST_QUEUE_NAME>
-       migrate_sqs_queues.py -h | --help
+Usage: sqs2sqs.py -s | --src-url=<SRC_QUEUE_NAME> -d | --dst-url=<DST_QUEUE_NAME>
+       sqs2sqs.py -h | --help
 ```
 
 # Requirements

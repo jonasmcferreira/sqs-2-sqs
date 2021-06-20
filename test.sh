@@ -12,7 +12,7 @@ aws sqs send-message --queue-url https://sqs.eu-central-1.amazonaws.com/$account
 
 echo "running the script"
 pip3 install -r requirements.txt > /dev/null
-python3 migrate_sqs_queues.py -s $queue_in -d $queue_out
+python3 sqs2sqs.py -s $queue_in -d $queue_out
 
 echo "check if message is there"
 aws sqs receive-message --queue-url https://sqs.eu-central-1.amazonaws.com/$account_id/$queue_out \
