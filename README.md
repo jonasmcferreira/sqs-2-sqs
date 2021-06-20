@@ -8,4 +8,4 @@ Usage: migrate_sqs_queues.py -s | --src-url=<SRC_QUEUE_NAME> -d | --dst-url=<DST
 
 # Requirements
 
-Needs to be run in a cli with a valid aws session (via aws-vault, exporting AWS_PROFILE, using AWSume)
+Needs to be run in a cli with a valid aws session (via [aws-vault](https://github.com/99designs/aws-vault), exporting AWS_PROFILE, using [AWSume](https://awsu.me/))
